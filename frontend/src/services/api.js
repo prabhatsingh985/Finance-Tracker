@@ -1,5 +1,5 @@
 // services/api.js
-const BASE = 'http://localhost:4000/api';
+const BASE = 'https://finance-tracker-jsae.onrender.com/api';
 
 export async function fetchTxns() {
   const res = await fetch(`${BASE}/transactions`);
